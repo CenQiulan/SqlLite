@@ -67,7 +67,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="--no--record"
+            android:text="---------------------\n--no records--\n---------------------"
             android:textColor="@color/colorAccent"
             android:textSize="20sp"/>
 
