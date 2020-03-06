@@ -19,9 +19,12 @@
             android:textSize="20sp"/>
         <EditText
             android:id="@+id/edt_name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorAccent"/>
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -35,8 +38,10 @@
         <EditText
             android:id="@+id/edt_email"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorAccent"/>
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -50,50 +55,65 @@
         <EditText
             android:id="@+id/edt_phone"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorAccent"/>
     </LinearLayout>
+
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="200dp">
+        android:layout_height="300dp">
         <TextView
             android:id="@+id/text_show"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="--no--record"
+            android:textColor="@color/colorAccent"
             android:textSize="20sp"/>
 
     </ScrollView>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:layout_marginBottom="30dp">
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:text="WRITE"
+            android:textSize="20sp"
             android:id="@+id/btn_write"
             android:background="@color/colorAccent"
             android:textColor="#ffffff"
             android:layout_margin="5dp"/>
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:text="READ"
+            android:textSize="20sp"
             android:id="@+id/btn_read"
             android:background="@color/colorAccent"
             android:textColor="#ffffff"
             android:layout_margin="5dp"/>
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:text="UPDATE"
+            android:textSize="20sp"
+
             android:id="@+id/btn_update"
             android:background="@color/colorAccent"
             android:textColor="#ffffff"
             android:layout_margin="5dp"/>
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:textSize="20sp"
             android:text="REMOVE"
             android:id="@+id/btn_remove"
             android:background="@color/colorAccent"
@@ -101,4 +121,5 @@
             android:layout_margin="5dp"/>
 
     </LinearLayout>
+
 </LinearLayout>
